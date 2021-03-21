@@ -3,7 +3,7 @@ This is a sentiment analysis project. A Deep learning model which can detect the
 
 
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
-<ins>[Algorithm](#Algorithm)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Details](#Details)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Network](#Network)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Hyperparameters](#Hyperparameters)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Results](#Results)</ins>&nbsp;&nbsp;&nbsp;
@@ -12,7 +12,7 @@ This is a sentiment analysis project. A Deep learning model which can detect the
 
 # Preview
 
-# Algorithm
+# Details
 
 # Network
 
