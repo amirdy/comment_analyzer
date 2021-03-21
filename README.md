@@ -11,3 +11,15 @@ This is a sentiment analysis project. A Deep learning model which can detect the
 <ins>[Useful Resources](#Useful-Resources)</ins>
 
 # Preview
+
+# Algorithm
+
+# Network
+
+# Hyperparameters
+
+# Results
+
+# References
+
+# Useful Resources
