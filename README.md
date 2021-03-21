@@ -1,5 +1,5 @@
 # Comment analyzer
-A Deep learning model which detects the comment given for a product is positive or negative !
+This is a sentiment analysis project. A Deep learning model which can detect the comment given for a product is positive or negative !
 
 
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
