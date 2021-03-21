@@ -13,6 +13,17 @@ This is a sentiment analysis project. A Deep learning model which can detect the
 # Preview
 
 # Details
+## Dataset 
+
+- [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/bittlingmayer/amazonreviews/)
+
+This dataset consists of a ~4 million Amazon customer reviews.
+
+It has 2 labels: 
+
+- <b>Label 1 </b> : for comments corresponds to 1 and 2 star reviews (<b>Negative</b>)
+
+- <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>)
 
 # Network
 
