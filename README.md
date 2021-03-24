@@ -25,6 +25,20 @@ It has 2 labels:
 
 - <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>)
 
+## Hyperparameters
+- #### Batch size: 
+   - 64 
+- #### Optimizer: 
+   - ADAM
+- #### Learning rate: 
+   - 0.0001
+- #### Loss: 
+   - Cross entropy
+- #### Train vs Validation Split: 
+   - Approximately : 0.8 | 0.2 
+- #### Tools: 
+   - Python - Pytorch ( Using Google Colab Pro )
+
 # Network
 
 # Hyperparameters
