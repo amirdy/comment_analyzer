@@ -41,6 +41,12 @@ It has 2 labels:
 
 # Network
 
+- ### Bidirectional Encoder
+  
+<img src="README_Files/L2R.JPG" >
+
+<img src="README_Files/R2L.JPG"  > 
+ 
 # Hyperparameters
 
 # Results
