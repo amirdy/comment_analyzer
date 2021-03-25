@@ -52,6 +52,8 @@ It has 2 labels:
 
 #### 2. The hiddens af last layer was given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
 
+This network receives hiddens of the last time step in the encoder (every two layers for both directions) and then generates decoder hiddens.
+
 |<img src="README_Files/E2D.jpg"   width = "622"> |
 |:--:| 
 |Encoder to Decoder Network|
