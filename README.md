@@ -74,7 +74,7 @@ For better result, I used attention mechanism which is a simple MLP.
 |Attention|
 
 Then, I used the output of attention for create the input of the decoder.
-|<img src="README_Files/Decoder.JPG"  > |
+|<img src="README_Files/Decoder.JPG"  width = "700"  > |
 |:--:| 
 |Decoder Network|
 
