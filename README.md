@@ -12,7 +12,7 @@ This is a sentiment analysis project. A Deep learning model which can detect the
 
 # Preview
 
-# Details
+# Details of Implementation
 ## Dataset 
 
 - [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/bittlingmayer/amazonreviews/)
@@ -25,19 +25,10 @@ It has 2 labels:
 
 - <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>)
 
-## Hyperparameters
-- #### Batch size: 
-   - 64 
-- #### Optimizer: 
-   - ADAM
-- #### Learning rate: 
-   - 0.0001
-- #### Loss: 
-   - Cross entropy
-- #### Train vs Validation Split: 
-   - Approximately : 0.8 | 0.2 
-- #### Tools: 
-   - Python - Pytorch ( Using Google Colab Pro )
+## Prerpocessing
+
+
+
 
 # Network
 #### The network consists of 3 parts:
@@ -74,11 +65,23 @@ For better result, I used attention mechanism which is a simple MLP.
 |Attention|
 
 Then, I used the output of attention for create the input of the decoder.
-|<img src="README_Files/Decoder.JPG"  width = "700"  > |
+|<img src="README_Files/Decoder.JPG"  width = "622"  > |
 |:--:| 
 |Decoder Network|
 
-# Hyperparameters
+# Hyperparameters and Tools
+- #### Batch size: 
+   - 64 
+- #### Optimizer: 
+   - ADAM
+- #### Learning rate: 
+   - 0.0001
+- #### Loss: 
+   - Cross entropy
+- #### Train vs Validation Split: 
+   - Approximately : 0.8 | 0.2 
+- #### Tools: 
+   - Python - Pytorch ( Using Google Colab Pro )
 
 # Results
 
