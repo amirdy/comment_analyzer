@@ -48,11 +48,11 @@ It has 2 labels:
 ## 1. Encoder
 ####  Word indexes 1 to 194 are given to a 2 layer bidirectional LSTM (Encoder).
 
-|<img src="README_Files/L2R.JPG" >|
+|<img src="README_Files/L2R.JPG"  width = "622" >|
 |:--:| 
 |Left to Right Direction|
 
-|<img src="README_Files/R2L.JPG"  >|
+|<img src="README_Files/R2L.JPG"  width = "622" >|
 |:--:| 
 |Right to Left Direction|
 
