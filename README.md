@@ -68,7 +68,12 @@ This network receives hiddens of the last time step in the encoder (every two la
 
 
 #### 2. Decoder
+For better result, I used attention mechanism which is a simple MLP.
+|<img src="README_Files/Attention.jpg"  width = "622"  > |
+|:--:| 
+|Attention|
 
+Then, I used the output of attention for create the input of the decoder.
 |<img src="README_Files/Decoder.JPG"  > |
 |:--:| 
 |Decoder Network|
