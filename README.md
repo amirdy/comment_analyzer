@@ -41,9 +41,9 @@ It has 2 labels:
 
 # Network
 #### The network consists of 3 parts:
-###### 1. Enocder
-###### 2. Encoder2Decoder
-###### 3. Decoder
+###### 1. Encoder (2 layers and Bidirectional - LSTM)
+###### 2. Encoder2Decoder (MLP)
+###### 3. Decoder (wih Attention - LSTM)
 
 ## 1. Encoder
 ####  Word indexes 1 to 194 are given to a 2 layer bidirectional LSTM (Encoder).
