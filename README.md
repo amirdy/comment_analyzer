@@ -40,7 +40,13 @@ It has 2 labels:
    - Python - Pytorch ( Using Google Colab Pro )
 
 # Network
-#### 1. Word indexes 1 to 194 are given to a 2 layer bidirectional LSTM (Encoder).
+#### The network consists of 3 parts:
+###### 1. Enocder
+###### 2. Encoder2Decoder
+###### 3. Decoder
+
+## 1. Encoder
+####  Word indexes 1 to 194 are given to a 2 layer bidirectional LSTM (Encoder).
 
 |<img src="README_Files/L2R.JPG" >|
 |:--:| 
@@ -50,13 +56,22 @@ It has 2 labels:
 |:--:| 
 |Right to Left Direction|
 
-#### 2. The hiddens af last layer was given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
+#### 2. Encoder2Decoder
+
+The hiddens af last layer was given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
 
 This network receives hiddens of the last time step in the encoder (every two layers for both directions) and then generates decoder hiddens.
 
 |<img src="README_Files/E2D.jpg"   width = "622"> |
 |:--:| 
 |Encoder to Decoder Network|
+
+
+#### 2. Decoder
+
+|<img src="README_Files/Decoder.JPG"  > |
+|:--:| 
+|Decoder Network|
 
 # Hyperparameters
 
