@@ -40,13 +40,22 @@ It has 2 labels:
    - Python - Pytorch ( Using Google Colab Pro )
 
 # Network
+#### 1. Word indexes 1 to 194 are given to a 2 layer bidirectional LSTM (Encoder).
 
-- ### Bidirectional Encoder
-  
-<img src="README_Files/L2R.JPG" >
+|<img src="README_Files/L2R.JPG" >|
+|:--:| 
+|Left to Right Direction|
 
-<img src="README_Files/R2L.JPG"  > 
- 
+|<img src="README_Files/R2L.JPG"  >|
+|:--:| 
+|Right to Left Direction|
+
+#### 2. The hiddens af last layer was given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
+
+|<img src="README_Files/E2D.jpg"   width = "622"> |
+|:--:| 
+|Encoder to Decoder Network|
+
 # Hyperparameters
 
 # Results
