@@ -26,6 +26,26 @@ It has 2 labels:
 - <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>)
 
 ## Prerpocessing
+The dataset contains 1 million samples for training and 400,000 for testing.
+I just used 1 Million samples for train(and validation) 400,000 samples for test.
+
+Thus:
+ ###### Train set : 800000 samples.
+ ###### Validation set : 200000 samples.
+ ###### Test set : 400000 samples.
+
+Each sample(which is sequnece of sentences) became a sequence of vocabs(tokens).
+The length of each sample is considered the size of this sequence.
+
+lets assume the lenght of samples in the train set is a random variable X.
+
+
+The average length of the samples in the training set is 92.78 and the standrar deviation is 50.22.
+\mio
+
+&mu
+
+&mio
 
 
 
