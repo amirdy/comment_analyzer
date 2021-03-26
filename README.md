@@ -107,25 +107,25 @@ Then, I used the output of attention for create the input of the decoder.
 # Hyperparameters and Tools
 - #### Batch size: 
    - 64 
-- #### Embedding Size
+- #### Embedding Size:
   - 16
-- #### Encoder 
-   - Sequence lenght
+- #### Encoder:
+   - Sequence lenght:
      - 194 
-   - Hidden size
+   - Hidden size:
      - 16
-   - Number of layers
+   - Number of layers:
      - 2 
-   - Bidirectional
+   - Bidirectional:
      - True
- - #### Decoder 
-   - Sequence lenght
+ - #### Decoder:
+   - Sequence lenght:
      - 1 
-   - Hidden size
+   - Hidden size:
      - 16
-   - Number of Layer
+   - Number of Layer:
      - 1 
-   - Bidirectional
+   - Bidirectional:
      - False
 
 - #### Optimizer: 
