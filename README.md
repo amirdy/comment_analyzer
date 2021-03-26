@@ -17,7 +17,7 @@ This is a sentiment analysis project. A Deep learning model which can detect the
 
 - [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/bittlingmayer/amazonreviews/)
 
-This dataset consists of a ~4 million Amazon customer reviews.
+This dataset consists of a ~4 million Amazon customer reviews(~3.6Milion for training and 0.4milion for testing).
 
 It has 2 labels: 
 
@@ -26,8 +26,8 @@ It has 2 labels:
 - <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>)
 
 ## Prerpocessing
-The dataset contains 1 million samples for training and 400,000 for testing.
-I just used 1 Million samples for train(and validation) 400,000 samples for test.
+
+I just used 1 million samples for training(validationg) and 400000 samples for testing.
 
 Thus:
  ###### Train set : 800000 samples.
@@ -41,13 +41,12 @@ The length of each sample is considered the size of this sequence.
 The length of samples are different. For batch(mini batch) gradient descent we need to have samples with same lenght.
 
 ##### So what is the solution?
-
 ###### We can only consider the first N Vocabs(Tokens) for each sample.
-َ
-###### Also add enough <pad> token to samples with a length of less than N to reach a length of N.
+
+###### Then, we can add enough <pad> token to samples with a length of less than N to reach a length of N.
  
 ##### But, what is the value of N?
-###### lets assume the lenght of samples in the train set is a random variable X with a Normal distribution.
+###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution.
 ###### The average length of the samples in the training set is 92.78 and the standard deviation is 50.22.
 
 <img src="README_Files/MuSigma.png"   >
@@ -67,7 +66,7 @@ The length of samples are different. For batch(mini batch) gradient descent we n
 
 # Network
 #### The network consists of 3 parts:
-###### 1. Encoder (2 layers and Bidirectional - LSTM)
+###### 1. Encoder (2-layer and Bidirectional - LSTM)
 ###### 2. Encoder2Decoder (MLP)
 ###### 3. Decoder (wih Attention - LSTM)
 
@@ -113,6 +112,10 @@ Then, I used the output of attention for create the input of the decoder.
    - 0.0001
 - #### Loss: 
    - Cross entropy
+- #### Encoder sequence lenght
+   - 194 
+- #### Decoder sequence lenght
+   - 1
 - #### Train vs Validation Split: 
    - Approximately : 0.8 | 0.2 
 - #### Tools: 
