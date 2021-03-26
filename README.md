@@ -107,16 +107,33 @@ Then, I used the output of attention for create the input of the decoder.
 # Hyperparameters and Tools
 - #### Batch size: 
    - 64 
+- #### Embedding Size
+  - 16
+- #### Encoder 
+   - Sequence lenght
+     - 194 
+   - Hidden size
+     - 16
+   - Number of layers
+     - 2 
+   - Bidirectional
+     - True
+ - #### Decoder 
+   - Sequence lenght
+     - 1 
+   - Hidden size
+     - 16
+   - Number of Layer
+     - 1 
+   - Bidirectional
+     - False
+
 - #### Optimizer: 
    - ADAM
 - #### Learning rate: 
    - 0.0001
 - #### Loss: 
    - Cross entropy
-- #### Encoder sequence lenght
-   - 194 
-- #### Decoder sequence lenght
-   - 1
 - #### Train vs Validation Split: 
    - Approximately : 0.8 | 0.2 
 - #### Tools: 
