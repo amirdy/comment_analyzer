@@ -17,22 +17,21 @@ This is a sentiment analysis project. A Deep learning model which can detect the
 
 - [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/bittlingmayer/amazonreviews/)
 
-This dataset consists of a ~4 million Amazon customer reviews(~3.6Milion for training and 0.4milion for testing).
+This dataset consists of a **~4 million** Amazon customer reviews(**~3.6million** for training and **0.4million** for testing).
 
 It has 2 labels: 
 
-- <b>Label 1 </b> : for comments corresponds to 1 and 2 star reviews (<b>Negative</b>)
+- <b>Label 1 </b> : for comments corresponds to 1 and 2 star reviews (<b>Negative</b>).
 
-- <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>)
+- <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>).
 
 ## Prerpocessing
 
-I just used 1 million samples for training(validationg) and 400000 samples for testing.
+I just used 1 million samples for training(validating) and 400000 samples for testing.
 
-Thus:
- ###### Train set : 800000 samples.
- ###### Validation set : 200000 samples.
- ###### Test set : 400000 samples.
+- **Train set** : *800000 samples*.
+- **Validation set** : *200000 samples*.
+- **Test set** : *400000 samples*.
 
 Each sample(which is sequnece of sentences) became a sequence of vocabs(tokens).
 
