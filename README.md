@@ -1,5 +1,5 @@
 # Comment analyzer
-This is a sentiment analysis project. A Deep learning model which can detect the comment given for a product is positive or negative !
+This is a <ins>sentiment analysis</ins> project. A Deep learning model which can detect the comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
 
 
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
@@ -140,6 +140,8 @@ Then, I used the output of attention for create the input of the decoder.
    - Python - Pytorch ( Using Google Colab Pro )
 
 # Results
+###### &nbsp;&nbsp; Training finished in ~ 8 Hours on Tesla V100-SXM2-16GB (using Google Colab Pro).
+###### &nbsp;&nbsp; Test Result: &nbsp;&nbsp;<b>Loss</b> : 0.148&nbsp;&nbsp;|   <b>Accuracy</b> : ~ 95 %
 
 # References
 
