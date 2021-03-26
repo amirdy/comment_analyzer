@@ -35,17 +35,32 @@ Thus:
  ###### Test set : 400000 samples.
 
 Each sample(which is sequnece of sentences) became a sequence of vocabs(tokens).
+
 The length of each sample is considered the size of this sequence.
 
-lets assume the lenght of samples in the train set is a random variable X.
+The length of samples are different. For batch(mini batch) gradient descent we need to have samples with same lenght.
 
+##### So what is the solution?
 
-The average length of the samples in the training set is 92.78 and the standrar deviation is 50.22.
-\mio
+###### We can only consider the first N Vocabs(Tokens) for each sample.
+َ
+###### Also add enough <pad> token to samples with a length of less than N to reach a length of N.
+ 
+##### But, what is the value of N?
+###### lets assume the lenght of samples in the train set is a random variable X with a Normal distribution.
+###### The average length of the samples in the training set is 92.78 and the standard deviation is 50.22.
 
-&mu
+<img src="README_Files/MuSigma.png"   >
 
-&mio
+###### We know in the noraml distribution we have : 
+
+<img src="README_Files/Prob1.png"   >
+
+###### So, here we have : 
+
+<img src="README_Files/Prob2.png"   >
+
+##### Thus, considering *N = 194* can be a good choice !
 
 
 
