@@ -25,19 +25,21 @@ It has 2 labels:
 
 - <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>).
 
-## Prerpocessing
+## Prerprocessing
 
 I just used 1 million samples for training(validating) and 400000 samples for testing.
 
-- **Train set** : *800000 samples*.
-- **Validation set** : *200000 samples*.
-- **Test set** : *400000 samples*.
+- **Train set** : 800000 samples.
+- **Validation set** : 200000 samples.
+- **Test set** : 400000 samples.
+  
+- [x] Each sample  is sequnece of sentences.
 
-Each sample(which is sequnece of sentences) became a sequence of vocabs(tokens).
+- [x] First, each sample became a sequence of vocabs(tokens).
 
-The length of each sample is considered the size of this sequence.
+- [x] The length of each sample is considered the size of this sequence.
 
-The length of samples are different. For batch(mini batch) gradient descent we need to have samples with same lenght.
+- [x] The length of samples are different. For batch(mini batch) gradient descent we need to have samples with the same lenghts.
 
 ##### So what is the solution?
 ###### We can only consider the first N Vocabs(Tokens) for each sample.
