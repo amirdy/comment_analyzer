@@ -23,7 +23,7 @@ It has 2 labels:
 
 - <b>Label 1 </b> : for comments corresponds to 1 and 2 star reviews (<b>Negative</b>).
 
-- <b>label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>).
+- <b>Label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>).
 
 ## Prerprocessing
 
@@ -39,12 +39,12 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 - [x] The length of each sample is considered the size of this sequence.
 
-- [x] The length of samples are different. For batch(mini batch) gradient descent we need to have samples with the same lenghts.
+- [x] The length of samples are different. For Mini batch gradient descent we need to have samples with the same lenghts.
 
 ##### So what is the solution?
 ###### We can only consider the first N Vocabs(Tokens) for each sample.
 
-###### Then, we can add enough <pad> token to samples with a length of less than N to reach a length of N.
+###### Then, we can add enough \<pad\> token to samples with a length of less than N to reach a length of N.
  
 ##### But, what is the value of N?
 ###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution.
