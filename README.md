@@ -1,5 +1,6 @@
 # Comment analyzer
 This is a <ins>sentiment analysis</ins> project. A Deep learning model which can detect the comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
+In fact, the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
 
 
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
@@ -11,6 +12,15 @@ This is a <ins>sentiment analysis</ins> project. A Deep learning model which can
 <ins>[Useful Resources](#Useful-Resources)</ins>
 
 # Preview
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stack:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML - CSS - Js - Chart.js - Underscore.js - Jquery - Bootstrap - Python - Flask 
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Icon Set:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fontawesome](https://www.Fontawesome.com)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bootstrap](https://getbootstrap.com/)
 
 # Details of Implementation
 ## Dataset 
@@ -141,8 +151,13 @@ Then, I used the output of attention for create the input of the decoder.
 
 # Results
 ###### &nbsp;&nbsp; Training finished in ~ 8 Hours on Tesla V100-SXM2-16GB (using Google Colab Pro).
-###### &nbsp;&nbsp; Test Result: &nbsp;&nbsp;<b>Loss</b> : 0.148&nbsp;&nbsp;|   <b>Accuracy</b> : ~ 95 %
+- ###### Best Validation Loss : 0.1462  
+  - ###### (In Epoch 4 | Accuracy : 94.47 %) [This model is selected]
+###### &nbsp;&nbsp; Test Result on this model:
+###### &nbsp;&nbsp;&nbsp;&nbsp;<b>Loss</b> : 0.1486&nbsp;&nbsp;|   <b>Accuracy</b> : ~ 94.4 %
+![alt text](README_Files/Loss.png) ![alt text](README_Files/Acc.png)
+
+
 
 # References
-
-# Useful Resources
+[1] [Sentiment Analysis on IMDB Dataset - Seyed Naser Razavi](https://github.com/snrazavi/Deep_Learning_in_Python_2018/tree/master/Week05)
