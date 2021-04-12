@@ -39,7 +39,7 @@ It has 2 labels:
 
 I just used 1 million samples for training(validating) and 400000 samples for testing.
 
-- **Train set** : 800000 samples.
+- **Train set** : 800000 samples (The number of negative samples is approximately equal to the number of positive samples).
 - **Validation set** : 200000 samples.
 - **Test set** : 400000 samples.
   
