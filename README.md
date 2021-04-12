@@ -141,20 +141,22 @@ Then, I used the output of attention for create the input of the decoder.
 - #### Optimizer: 
    - ADAM
 - #### Learning rate: 
+   - 0.0005
+- #### Weight Decay: 
    - 0.0001
 - #### Loss: 
    - Cross entropy
 - #### Train vs Validation Split: 
-   - Approximately : 0.8 | 0.2 
+   - Approximately : 0.8 | 0.2  
 - #### Tools: 
    - Python - Pytorch ( Using Google Colab Pro )
 
 # Results
 ###### &nbsp;&nbsp; Training finished in ~ 8 Hours on Tesla V100-SXM2-16GB (using Google Colab Pro).
-- ###### Best Validation Loss : 0.1462  
-  - ###### (In Epoch 4 | Accuracy : 94.47 %) [This model is selected]
+- ###### Best Validation Loss : 0.1399
+  - ###### (In Epoch 15 | Accuracy : 94.75 %) [This model is selected]
 - ###### &nbsp;&nbsp; Test Result on this model:
-  - ###### &nbsp;&nbsp;&nbsp;&nbsp;<b>Loss</b> : 0.1486&nbsp;&nbsp;|   <b>Accuracy</b> : ~ 94.4 %
+  - ###### &nbsp;&nbsp;&nbsp;&nbsp;<b>Loss</b> : 0.1424&nbsp;&nbsp;|   <b>Accuracy</b> : ~ 94.68 %
 ![alt text](README_Files/Loss.png) ![alt text](README_Files/Acc.png)
 
 
