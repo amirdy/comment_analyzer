@@ -152,7 +152,7 @@ Then, I used the output of attention for create the input of the decoder.
    - Python - Pytorch ( Using Google Colab Pro )
 
 # Results
-###### &nbsp;&nbsp; Training finished in ~ 8 Hours on Tesla V100-SXM2-16GB (using Google Colab Pro).
+###### &nbsp;&nbsp; Training finished in ~ 7 Hours on Tesla V100-SXM2-16GB (using Google Colab Pro).
 - ###### Best Validation Loss : 0.1399
   - ###### (In Epoch 15 | Accuracy : 94.75 %) [This model is selected]
 - ###### &nbsp;&nbsp; Test Result on this model:
