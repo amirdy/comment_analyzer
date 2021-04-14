@@ -1,6 +1,6 @@
 # Comment analyzer
-This is a <ins>sentiment analysis</ins> project. A Deep learning model which can detect the comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
-In fact, the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
+This is a <ins>sentiment analysis</ins> project. A Deep learning model which determines whether a comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
+In fact, whether the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
 
 
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
@@ -63,7 +63,7 @@ It has 2 labels:
 
 - <b>Label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>).
 
-## Prerprocessing
+## Preprocessing
 
 I just used 1 million samples for training(validating) and 400000 samples for testing.
 
@@ -71,7 +71,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 - **Validation set** : 200000 samples.
 - **Test set** : 400000 samples.
   
-- [x] Each sample  is sequnece of sentences.
+- [x] Each sample  is sequence of sentences.
 
 - [x] First, each sample became a sequence of vocabs(tokens).
 
@@ -90,7 +90,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 <img src="README_Files/MuSigma.png"   >
 
-###### We know in the noraml distribution we have : 
+###### We know in the Normal distribution we have : 
 
 <img src="README_Files/Prob1.png"   >
 
@@ -122,7 +122,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 #### 2. Encoder2Decoder
 
-The hiddens af last layer was given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
+The hiddens of last layer was given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
 
 This network receives hiddens of the last time step in the encoder (every two layers for both directions) and then generates decoder hiddens.
 
