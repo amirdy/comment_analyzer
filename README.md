@@ -36,13 +36,16 @@ Leave the python shell and run the commands below:
 #### Commands:
 
 ```
- $ git clone https://github.com/amirdy/dog-breed-classification.git 
- $ cd dog-breed-classification/Web_App
+ $ git clone https://github.com/amirdy/comment_analyzer.git
+ $ cd comment_analyzer/demo
  $ python3.7 -m venv env 
  $ source ./env/bin/activate
  (env)$ pip install -r requirements.txt
  (env)$ pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
- (env)$ pip install efficientnet_pytorch==0.6.3
+ (env)$cp -r ./files/tokenizers     /usr/share/nltk_data
+ (env)$cp -r ./files/tokenizers     /usr/local/share/nltk_data
+ (env)$cp -r ./files/tokenizers     /usr/lib/nltk_data
+ (env)$cp -r ./files/tokenizers     /usr/local/lib/nltk_data
  (env)$ flask run
  ```
  It will run a <ins>Flask development server</ins>.
