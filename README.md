@@ -4,6 +4,7 @@ In fact, the person who bought the product is **<ins>satisfied**</ins> or **<ins
 
 
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Setup](#Setup)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Details of Implementation](#Details-of-Implementation)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Network](#Network)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Hyperparameters and Tools](#Hyperparameters-and-Tools)</ins>&nbsp;&nbsp;&nbsp;
@@ -21,6 +22,30 @@ In fact, the person who bought the product is **<ins>satisfied**</ins> or **<ins
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fontawesome](https://www.Fontawesome.com)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bootstrap](https://getbootstrap.com/)
+
+# Setup
+## Ubuntu 16 LTS
+First install `python3.7` and `python3.7-venv` on the OS.
+
+#### Check:
+
+By typing `python3.7` and hiting Enter, python shell will appear (version 3.7).
+
+Leave the python shell and run the commands below:
+
+#### Commands:
+
+```
+ $ git clone https://github.com/amirdy/dog-breed-classification.git 
+ $ cd dog-breed-classification/Web_App
+ $ python3.7 -m venv env 
+ $ source ./env/bin/activate
+ (env)$ pip install -r requirements.txt
+ (env)$ pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+ (env)$ pip install efficientnet_pytorch==0.6.3
+ (env)$ flask run
+ ```
+ It will run a <ins>Flask development server</ins>.
 
 # Details of Implementation
 ## Dataset 
