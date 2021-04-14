@@ -4,12 +4,12 @@ In fact, the person who bought the product is **<ins>satisfied**</ins> or **<ins
 
 
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
-<ins>[Details](#Details)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Details of Implementation](#Details-of-Implementation)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Network](#Network)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Hyperparameters](#Hyperparameters)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Results](#Results)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[References](#References)</ins>&nbsp;&nbsp;&nbsp;
-<ins>[Useful Resources](#Useful-Resources)</ins>
+
 
 # Preview
 
