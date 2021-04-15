@@ -14,6 +14,8 @@ In fact, whether the person who bought the product is **<ins>satisfied**</ins> o
 
 # Preview
 
+![Demo](README_Files/demo.gif)
+
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stack:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML - CSS - Js - Chart.js - Underscore.js - Jquery - Bootstrap - Python - Flask 
