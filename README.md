@@ -2,6 +2,8 @@
 This is a <ins>sentiment analysis</ins> project. A Deep learning model which determines whether a comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
 In fact, whether the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
 
+![Demo](README_Files/Demo.png)
+
 
 <ins>[Preview](#preview)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Setup](#Setup)</ins>&nbsp;&nbsp;&nbsp;
@@ -10,8 +12,6 @@ In fact, whether the person who bought the product is **<ins>satisfied**</ins> o
 <ins>[Hyperparameters and Tools](#Hyperparameters-and-Tools)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Results](#Results)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[References](#References)</ins>&nbsp;&nbsp;&nbsp;
-
-
 # Preview
 
 ![Demo](README_Files/demo.gif)
