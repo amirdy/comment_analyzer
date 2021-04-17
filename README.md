@@ -39,7 +39,7 @@ Leave the python shell and run the commands below:
 
 ```
  $ git clone https://github.com/amirdy/comment_analyzer.git
- $ cd comment_analyzer/demo
+ $ cd comment_analyzer/Demo
  $ python3.7 -m venv env 
  $ source ./env/bin/activate
  (env)$ pip install -r requirements.txt
