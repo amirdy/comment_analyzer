@@ -7,7 +7,7 @@ import torch
 import os , time
 import nltk
 from nltk.tokenize import word_tokenize
-#nltk.download('punkt')
+nltk.download('punkt')
 
 import random
 import torch.cuda as cuda
