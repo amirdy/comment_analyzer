@@ -37,7 +37,7 @@ def r(comment):
 
     ## Convert Vocabs to their indexes in Vocab. 
 
-    for idx_word, word in enumerate(example):
+    for idx_word, word in enumerate(test_data[0]):
         if word not in vocab:
              test_data[0][idx_word] = 0 ## UNK for vocabs that are not in the Vocab.
         else:
