@@ -44,10 +44,6 @@ Leave the python shell and run the commands below:
  $ source ./env/bin/activate
  (env)$ pip install -r requirements.txt
  (env)$ pip install torch==1.8.1+cpu torchvision==0.9.1+cpu  -f https://download.pytorch.org/whl/torch_stable.html
- (env)$cp -r ./files/tokenizers     /usr/share/nltk_data
- (env)$cp -r ./files/tokenizers     /usr/local/share/nltk_data
- (env)$cp -r ./files/tokenizers     /usr/lib/nltk_data
- (env)$cp -r ./files/tokenizers     /usr/local/lib/nltk_data
  (env)$ flask run
  ```
  It will run a <ins>Flask development server</ins>.
