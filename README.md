@@ -27,11 +27,11 @@ In fact, whether the person who bought the product is **<ins>satisfied**</ins> o
 
 # Setup
 ## Ubuntu 16 LTS
-First install `python3.7` and `python3.7-venv` on the OS.
+First install `python3.8` and `python3.8-venv` on the OS.
 
 #### Check:
 
-By typing `python3.7` and hiting Enter, python shell will appear (version 3.7).
+By typing `python3.8` and hiting Enter, python shell will appear (version 3.8).
 
 Leave the python shell and run the commands below:
 
@@ -40,10 +40,10 @@ Leave the python shell and run the commands below:
 ```
  $ git clone https://github.com/amirdy/comment_analyzer.git
  $ cd comment_analyzer/Demo
- $ python3.7 -m venv env 
+ $ python3.8 -m venv env 
  $ source ./env/bin/activate
  (env)$ pip install -r requirements.txt
- (env)$ pip install torch==1.6.0+cpu torchvision==0.7.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+ (env)$ pip install torch==1.8.1+cpu torchvision==0.9.1+cpu  -f https://download.pytorch.org/whl/torch_stable.html
  (env)$cp -r ./files/tokenizers     /usr/share/nltk_data
  (env)$cp -r ./files/tokenizers     /usr/local/share/nltk_data
  (env)$cp -r ./files/tokenizers     /usr/lib/nltk_data
