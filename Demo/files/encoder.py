@@ -3,7 +3,7 @@ import pickle
 import os 
 
 cwd = os.getcwd()
-path = os.path.join(cwd, "./models/vocab.txt").replace('\\','/')
+path = os.path.join(cwd, "./models/vocab_new.txt").replace('\\','/')
 with open(path, "rb") as fp:   
         vocab = pickle.load(fp)
 
