@@ -17,11 +17,11 @@ def r(comment):
     start = time.time()
 
     cwd = os.getcwd()
-    path = os.path.join(cwd, "./models/vocab.txt").replace('\\','/')
+    path = os.path.join(cwd, "./models/vocab_new.txt").replace('\\','/')
     with open(path, "rb") as fp:   
         vocab = pickle.load(fp)
 
-    seq_lenght = 194 
+    seq_lenght = 244 
     example_test = comment
     example = word_tokenize( example_test.lower().replace(".", " . ") )  
     test_data = [example]
@@ -69,19 +69,19 @@ def r(comment):
     enc2dec.double()
 
 
-    enc.load_state_dict(torch.load("models/enc.pth", map_location=torch.device('cpu')))
-    dec.load_state_dict(torch.load("models/dec.pth", map_location=torch.device('cpu')))
-    enc2dec.load_state_dict(torch.load("models/enc2dec.pth", map_location=torch.device('cpu')))
+    enc.load_state_dict(torch.load("models/enco.pth", map_location=torch.device('cpu')))
+    dec.load_state_dict(torch.load("models/deco.pth", map_location=torch.device('cpu')))
+    enc2dec.load_state_dict(torch.load("models/enco2deco.pth", map_location=torch.device('cpu')))
 
     enc.eval()
     dec.eval()
     enc2dec.eval()
 
     X = torch.tensor(test_data)
-        ## X shape : torch (batch_size , seq_lenght) | seq_lenght is threshold
+        ## X shape : torch (batch_size , seq_lenght) 
 
     X = torch.transpose(X, 0, 1)
-        ## X shape : torch (seq_lenght, batch_size) | seq_lenght is threshold
+        ## X shape : torch (seq_lenght, batch_size) 
 
     h0 = torch.zeros((num_enc_direction * num_layer_enc, batch_size, encoder_hidden_size)).double()
     c0 = torch.zeros((num_enc_direction * num_layer_enc, batch_size, encoder_hidden_size)).double()
@@ -95,7 +95,7 @@ def r(comment):
                 c0 = c0.cuda() 
 
 
-    encoder_hiddens ,encoder_last_h ,encoder_last_c = enc(X, h0, c0) # seq_lenght is 194
+    encoder_hiddens ,encoder_last_h ,encoder_last_c = enc(X, h0, c0) # seq_lenght is 244
         # encoder_hiddens shape :  torch.Size([seq_lenght, batch_size, encoder_hidden_size*num_enc_direction]) | hidden of all time steps
         # encoder_last_h shape :   torch.Size([num_enc_direction * num_layer_enc, batch_size, encoder_hidden_size]) | hidden of last time step
         # encoder_last_c shape :   torch.Size([num_enc_direction * num_layer_enc, batch_size, encoder_hidden_size]) | C of last time step
