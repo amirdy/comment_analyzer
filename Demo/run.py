@@ -53,8 +53,7 @@ def r(comment):
     emb_size = 16
     enc = encoder(encoder_hidden_size, num_layer_enc, enc_bidirectional, emb_size)
 
-    with open("models/vocab.txt", "rb") as fp:   
-        vocab = pickle.load(fp)
+
 
     decoder_hidden_size = 16
     enc2dec = encoder2decoder(encoder_hidden_size,decoder_hidden_size, num_layer_enc, num_enc_direction)
