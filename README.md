@@ -65,8 +65,8 @@ It has 2 labels:
 
 I just used 1 million samples for training(validating) and 400000 samples for testing.
 
-- **Train set** : 800000 samples (The number of negative samples is approximately equal to the number of positive samples).
-- **Validation set** : 200000 samples.
+- **Train set** : 780000 samples (The number of negative samples is approximately equal to the number of positive samples).
+- **Validation set** : 220000 samples.
 - **Test set** : 400000 samples.
   
 - [x] Each sample  is sequence of sentences.
@@ -173,16 +173,16 @@ Then, I used the output of attention for create the input of the decoder.
 - #### Loss: 
    - Cross entropy
 - #### Train vs Validation Split: 
-   - Approximately : 0.8 | 0.2  
+   - Approximately : 0.78 | 0.22  
 - #### Tools: 
    - Python - Pytorch ( Using Google Colab Pro )
 
 # Results
 ###### &nbsp;&nbsp; Training finished in ~ 7 Hours on Tesla V100-SXM2-16GB (using Google Colab Pro).
-- ###### Best Validation Loss : 0.1399
-  - ###### (In Epoch 15 | Accuracy : 94.75 %) [This model is selected]
+- ###### Best Validation Loss : 0.1355
+  - ###### (In Epoch 30 | Accuracy : 94.97 %) [This model is selected]
 - ###### &nbsp;&nbsp; Test Result on this model:
-  - ###### &nbsp;&nbsp;&nbsp;&nbsp;<b>Loss</b> : 0.1424&nbsp;&nbsp;|   <b>Accuracy</b> : ~ 94.68 %
+  - ###### &nbsp;&nbsp;&nbsp;&nbsp;<b>Loss</b> : 0.1365&nbsp;&nbsp;|   <b>Accuracy</b> : ~ 94.96 %
 ![alt text](README_Files/Loss.png) ![alt text](README_Files/Acc.png)
 
 
