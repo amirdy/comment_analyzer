@@ -94,7 +94,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 ###### So, here we have : 
 
-<img src="README_Files/Prob2.png"   width='400' >
+<img src="README_Files/Prob2.png"   width='250' >
 
 ##### Thus, considering *N = 244* can be a good choice !
 
