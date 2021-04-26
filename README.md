@@ -86,11 +86,11 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 ###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution.
 ###### The average length of the samples in the training set is 92.78 and the standard deviation is 50.22.
 
-<img src="README_Files/MuSigma.png"   >
+<img src="README_Files/MuSigma.png"  width='250' >
 
 ###### We know in the Normal distribution we have : 
 
-<img src="README_Files/Prob1.png"   >
+<img src="README_Files/Prob1.png"  width='400' >
 
 ###### So, here we have : 
 
