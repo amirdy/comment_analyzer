@@ -84,7 +84,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
  
 ##### But, what is the value of N?
 ###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution.
-###### The average length of the samples in the training set is 92.78 and the standard deviation is 50.22.
+###### The average length of the samples in the training set is 92.70 and the standard deviation is 50.23.
 
 <img src="README_Files/MuSigma.png"  width='250' >
 
@@ -94,11 +94,11 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 ###### So, here we have : 
 
-<img src="README_Files/Prob2.png"   >
+<img src="README_Files/Prob2.png"   width='400' >
 
-##### Thus, considering *N = 194* can be a good choice !
+##### Thus, considering *N = 244* can be a good choice !
 
-
+#### We can only consider the first 244 Vocabs(Tokens) for each sample.
 
 
 # Network
