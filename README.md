@@ -26,7 +26,7 @@ In fact, whether the person who bought the product is **<ins>satisfied**</ins> o
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bootstrap](https://getbootstrap.com/)
 
 # Setup
-## Ubuntu 16 LTS
+## Ubuntu 18 LTS
 First install `python3.8` and `python3.8-venv` on the OS.
 
 #### Check:
@@ -108,7 +108,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 ###### 3. Decoder (wih Attention - LSTM)
 
 ## 1. Encoder
-####  Word indexes 1 to 194 are given to a 2 layer bidirectional LSTM (Encoder).
+####  Word indexes 1 to 244 are given to a 2 layer bidirectional LSTM (Encoder).
 
 |<img src="README_Files/L2R.JPG"  width = "622" >|
 |:--:| 
@@ -147,7 +147,7 @@ Then, I used the output of attention for create the input of the decoder.
   - 16
 - #### Encoder:
    - Sequence lenght:
-     - 194 
+     - 244 
    - Hidden size:
      - 16
    - Number of layers:
