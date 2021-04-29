@@ -26,7 +26,7 @@ In fact, whether the person who bought the product is **<ins>satisfied**</ins> o
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bootstrap](https://icons.getbootstrap.com/)
 
 # Setup
-## Ubuntu 18 LTS
+## Ubuntu 20 LTS
 First install `python3.8` and `python3.8-venv` on the OS.
 
 #### Check:
