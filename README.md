@@ -194,4 +194,4 @@ Then, I used the output of attention for create the input of the decoder.
 [1] [Sentiment Analysis on IMDB Dataset - Seyed Naser Razavi](https://github.com/snrazavi/Deep_Learning_in_Python_2018/tree/master/Week05)
 
 # Useful Resources
-[1] [Sentiment Analysis on IMDB Dataset - Seyed Naser Razavi](https://github.com/snrazavi/Deep_Learning_in_Python_2018/tree/master/Week05)
+[1] [Text Classification (Sentiment Analysis) - Seyed Naser Razavi](https://www.youtube.com/watch?v=BGI-7s3p03I&list=PLW529xl11jnnsBxCuLrir5JunafxPYVnC&index=6)
