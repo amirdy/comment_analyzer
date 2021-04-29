@@ -12,6 +12,8 @@ In fact, whether the person who bought the product is **<ins>satisfied**</ins> o
 <ins>[Hyperparameters and Tools](#Hyperparameters-and-Tools)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[Results](#Results)</ins>&nbsp;&nbsp;&nbsp;
 <ins>[References](#References)</ins>&nbsp;&nbsp;&nbsp;
+<ins>[Useful Resources](#Useful-Resources)</ins>&nbsp;&nbsp;&nbsp;
+
 # Preview
 
 ![Demo](README_Files/demo.gif)
@@ -175,10 +177,11 @@ Then, I used the output of attention for create the input of the decoder.
 - #### Train vs Validation Split: 
    - Approximately : 0.78 | 0.22  
 - #### Tools: 
+   - NLTK
    - Python - Pytorch ( Using Google Colab Pro )
 
 # Results
-###### &nbsp;&nbsp; Training finished in ~ 7 Hours on Tesla V100-SXM2-16GB (using Google Colab Pro).
+###### &nbsp;&nbsp; Training finished in ~ 19 Hours on Tesla V100-SXM2-16GB (using Google Colab Pro).
 - ###### Best Validation Loss : 0.1355
   - ###### (In Epoch 30 | Accuracy : 94.97 %) [This model is selected]
 - ###### &nbsp;&nbsp; Test Result on this model:
@@ -188,4 +191,7 @@ Then, I used the output of attention for create the input of the decoder.
 
 
 # References
+[1] [Sentiment Analysis on IMDB Dataset - Seyed Naser Razavi](https://github.com/snrazavi/Deep_Learning_in_Python_2018/tree/master/Week05)
+
+# Useful Resources
 [1] [Sentiment Analysis on IMDB Dataset - Seyed Naser Razavi](https://github.com/snrazavi/Deep_Learning_in_Python_2018/tree/master/Week05)
