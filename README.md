@@ -75,7 +75,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 - [x] The length of each sample is considered the size of this sequence.
 
-- [x] The length of samples are different. For Mini batch gradient descent we need to have samples with the same lenghts.
+- [x] The length of samples are different. For Mini Batch gradient descent we need to have samples with the same lenghts.
 
 ##### So what is the solution?
 ###### We can only consider the first N Vocabs(Tokens) for each sample.
@@ -83,7 +83,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 ###### Then, we can add enough \<pad\> token to samples with a length of less than N to reach a length of N.
  
 ##### But, what is the value of N?
-###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution.
+###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution<sup>1</sup>.
 ###### The average length of the samples in the training set is 92.70 and the standard deviation is 50.23.
 
 <img src="README_Files/MuSigma.png"  width='250' >
@@ -98,8 +98,8 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 ##### Thus, considering *N = 244* can be a good choice !
 
-#### We can only consider the first 244 Vocabs(Tokens) for each sample.
-
+#### * We can only consider the first 244 Vocabs(Tokens) for each sample.
+#### * Vocabs with less than 10 repetitions will be replaced with \<UNK\>.
 
 # Network
 #### The network consists of 3 parts:
