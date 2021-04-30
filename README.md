@@ -23,9 +23,9 @@ In fact, whether the person who bought the product is **<ins>satisfied**</ins> o
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML - CSS - Js - Chart.js - Underscore.js - Jquery - Bootstrap - Python - Flask 
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Icon Set:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Fontawesome](https://www.Fontawesome.com)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Fontawesome](https://www.Fontawesome.com)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Bootstrap](https://icons.getbootstrap.com/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [Bootstrap](https://icons.getbootstrap.com/)
 
 # Setup
 ## Ubuntu 20 LTS
