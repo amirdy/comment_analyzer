@@ -61,7 +61,7 @@ It has 2 labels:
 
 - <b>Label 1 </b> : for comments corresponds to 1 and 2 star reviews (<b>Negative</b>).
 
-- <b>Label 2 </b> : for comments corresponds to 3 and 4 star reviews (<b>Positive</b>).
+- <b>Label 2 </b> : for comments corresponds to 4 and 5 star reviews (<b>Positive</b>).
 
 ## Preprocessing
 
