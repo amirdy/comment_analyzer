@@ -101,7 +101,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 ##### Thus, considering *N = 244* can be a good choice !
 
 #### * We can only consider the first 244 Vocabs(Tokens) for each sample.
-#### * Vocabs with less than 10 repetitions will be replaced with \<UNK\><sup>1</sup>.
+#### * Vocabs with less than 10 repetitions will be replaced with \<UNK\>.<sup>1</sup>
 
 # Network
 #### The network consists of 3 parts:
@@ -177,7 +177,7 @@ Then, I used the output of attention for create the input of the decoder.
 - #### Train vs Validation Split: 
    - Approximately : 0.78 | 0.22  
 - #### Tools: 
-   - NLTK
+   - [NLTK](https://www.nltk.org/)
    - Python - Pytorch ( Using Google Colab Pro )
 
 # Results
