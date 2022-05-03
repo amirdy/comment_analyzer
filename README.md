@@ -124,7 +124,7 @@ I just used 1000000 samples for training(validating) and 400000 samples for test
 
 The hiddens of the last time step were given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
 
-This network receives hiddens of the last time step in the encoder (every two layers for both directions) and then generates decoder hiddens.
+This network receives hiddens of the last time step in the Encoder (every two layers for both directions) and then generates Decoder hiddens.
 
 |<img src="README_Files/E2D.jpg"   width = "622"> |
 |:--:| 
@@ -132,12 +132,12 @@ This network receives hiddens of the last time step in the encoder (every two la
 
 
 #### 2. Decoder
-For better result, I used attention mechanism which is a simple MLP.
+For better result, Attention mechanism which is a simple MLP was used.
 |<img src="README_Files/Attention.jpg"  width = "622"  > |
 |:--:| 
 |Attention|
 
-Then, I used the output of attention for create part of the input for the decoder.
+Then, combination of Attention outpus and Encoder hiddens were given to the Decoder.
 |<img src="README_Files/Decoder.JPG"  width = "622"  > |
 |:--:| 
 |Decoder Network|
