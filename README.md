@@ -1,5 +1,5 @@
 # Comment analyzer
-This is a <ins>sentiment analysis</ins> project. A Deep learning model which determines whether a comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
+This is a <ins>sentiment analysis</ins> project. A Web Application which determines whether a comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
 In fact, whether the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
 
 ![Demo](README_Files/Demo.png)
@@ -55,19 +55,19 @@ Leave the python shell and run the commands below:
 
 - [Amazon Reviews for Sentiment Analysis](https://www.kaggle.com/bittlingmayer/amazonreviews/)
 
-This dataset consists of a **~4 million** Amazon customer reviews(**~3.6million** for training and **0.4million** for testing).
+This dataset consists of **~4 million** Amazon customer reviews(**~3.6million** for training and **0.4million** for testing).
 
 It has 2 labels: 
 
-- <b>Label 1 </b> : for comments corresponds to 1 and 2 star reviews (<b>Negative</b>).
+- <b>Label 1 </b> : for comments correspond to 1 and 2-star reviews (<b>Negative</b>).
 
-- <b>Label 2 </b> : for comments corresponds to 4 and 5 star reviews (<b>Positive</b>).
+- <b>Label 2 </b> : for comments correspons to 4 and 5-star reviews (<b>Positive</b>).
 
 ## Preprocessing
 
-I just used 1 million samples for training(validating) and 400000 samples for testing.
+I just used 1000000 samples for training(validating) and 400000 samples for testing.
 
-- **Train set** : 780000 samples (The number of negative samples is approximately equal to the number of positive samples).
+- **Train set** : 780000 samples (The number of negative and positive samples is almost the same).
 - **Validation set** : 220000 samples.
 - **Test set** : 400000 samples.
   
@@ -75,7 +75,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 - [x] First, each sample became a sequence of vocabs(tokens).
 
-- [x] The length of each sample is considered the size of this sequence.
+- [x] The length of each sample is equal to the size of this sequence.
 
 - [x] The length of samples are different. For Mini Batch gradient descent we need to have samples with the same lenghts.
 
@@ -104,13 +104,13 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 #### * Vocabs with less than 10 repetitions will be replaced with \<UNK\>.<sup>1</sup>
 
 # Network
-#### The network consists of 3 parts:
+#### The model consists of 3 parts:
 ###### 1. Encoder (2-layer and Bidirectional - LSTM)
 ###### 2. Encoder2Decoder (MLP)
 ###### 3. Decoder (wih Attention - LSTM)
 
 ## 1. Encoder
-####  Word indexes 1 to 244 are given to a 2 layer bidirectional LSTM (Encoder).
+####  Word indexes 1 to 244 are given to a 2-layer bidirectional LSTM (Encoder).
 
 |<img src="README_Files/L2R.JPG"  width = "622" >|
 |:--:| 
@@ -122,7 +122,7 @@ I just used 1 million samples for training(validating) and 400000 samples for te
 
 #### 2. Encoder2Decoder
 
-The hiddens of last layer was given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
+The hiddens of the last time step were given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
 
 This network receives hiddens of the last time step in the encoder (every two layers for both directions) and then generates decoder hiddens.
 
@@ -137,7 +137,7 @@ For better result, I used attention mechanism which is a simple MLP.
 |:--:| 
 |Attention|
 
-Then, I used the output of attention for create the input of the decoder.
+Then, I used the output of attention for create part of the input for the decoder.
 |<img src="README_Files/Decoder.JPG"  width = "622"  > |
 |:--:| 
 |Decoder Network|
