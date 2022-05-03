@@ -61,7 +61,7 @@ It has 2 labels:
 
 - <b>Label 1 </b> : for comments correspond to 1 and 2-star reviews (<b>Negative</b>).
 
-- <b>Label 2 </b> : for comments correspons to 4 and 5-star reviews (<b>Positive</b>).
+- <b>Label 2 </b> : for comments correspond to 4 and 5-star reviews (<b>Positive</b>).
 
 ## Preprocessing
 
@@ -71,7 +71,7 @@ I just used 1000000 samples for training(validating) and 400000 samples for test
 - **Validation set** : 220000 samples.
 - **Test set** : 400000 samples.
   
-- [x] Each sample  is sequence of sentences.
+- [x] Each sample  is a sequence of sentences.
 
 - [x] First, each sample became a sequence of vocabs(tokens).
 
@@ -82,7 +82,7 @@ I just used 1000000 samples for training(validating) and 400000 samples for test
 ##### So what is the solution?
 ###### We can only consider the first N Vocabs(Tokens) for each sample.
 
-###### Then, we can add enough \<pad\> token to samples with a length of less than N to reach a length of N.
+###### Then, we can add enough \<pad\> tokens to samples with a length of less than N to reach a length of N.
  
 ##### But, what is the value of N?
 ###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution<sup>1</sup>.
