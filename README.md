@@ -77,7 +77,7 @@ I just used 1000000 samples for training(validating) and 400000 samples for test
 
 - [x] The length of each sample is equal to the size of this sequence.
 
-- [x] The length of samples are different. For Mini Batch gradient descent we need to have samples with the same lenghts.
+- [x] The length of samples are different. For Mini Batch Gradient Descent we need to have samples with the same lenghts.
 
 ##### So what is the solution?
 ###### We can only consider the first N Vocabs(Tokens) for each sample.
