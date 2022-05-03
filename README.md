@@ -107,7 +107,7 @@ I just used 1000000 samples for training(validating) and 400000 samples for test
 #### The model consists of 3 parts:
 ###### 1. Encoder (2-layer and Bidirectional - LSTM)
 ###### 2. Encoder2Decoder (MLP)
-###### 3. Decoder (wih Attention - LSTM)
+###### 3. Decoder (with Attention - LSTM)
 
 ## 1. Encoder
 ####  Word indexes 1 to 244 were given to a 2-layer bidirectional LSTM (Encoder).
