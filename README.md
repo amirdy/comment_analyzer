@@ -85,22 +85,22 @@ I just used 1000000 samples for training(validating) and 400000 samples for test
 ###### Then, we add enough \<pad\> tokens to the end of samples with a length of less than N to reach the length of N.
  
 ##### But, what is the value of N?
-###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution<sup>1</sup>.
-###### The average length of the samples in the training set is 92.70 and the standard deviation is 50.23.
+###### Let's assume that the length of samples in the train set is a random variable X with a Normal Distribution<sup>1</sup>.
+###### In the training set, the average length of the samples is 92.70 and the standard deviation is 50.23.
 
 <img src="README_Files/MuSigma.png"  width='250' >
 
-###### We know that in the Normal distribution we have : 
+###### We already know that in the Normal Distribution: 
 
 <img src="README_Files/Prob1.png"  width='400' >
 
-###### So, here we have : 
+###### By placing average and the standard deviation we will have:
 
 <img src="README_Files/Prob2.png"   width='250' >
 
-##### Thus, considering *N = 244* can be a good choice !
+##### Thus, considering *N = 244* can be a good choice!
 
-#### * We can only consider the first 244 Vocabs(Tokens) for each sample.
+#### * We only consider the first 244 Vocabs(Tokens) of each sample.
 #### * Vocabs with less than 10 repetitions will be replaced with \<UNK\>.<sup>1</sup>
 
 # Network
