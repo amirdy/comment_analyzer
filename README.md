@@ -67,22 +67,22 @@ It has 2 labels:
 
 I just used 1000000 samples for training(validating) and 400000 samples for test set.
 
-- **Train set** : 780000 samples (The number of negative and positive samples is almost the same).
+- **Train set** : 780000 samples (the number of negative samples and positive samples is almost equal.).
 - **Validation set** : 220000 samples.
 - **Test set** : 400000 samples.
   
 - [x] Each sample  is a sequence of sentences.
 
-- [x] First, each sample became a sequence of vocabs(tokens).
+- [x] First, each sample turns into a sequence of vocabs(tokens).
 
 - [x] The length of each sample is equal to the size of this sequence.
 
-- [x] The length of samples are different. For Mini Batch Gradient Descent we need to have samples with the same lenghts.
+- [x] The lengths of samples are different. For Mini Batch Gradient Descent, we need the same length samples.
 
-##### So what is the solution?
-###### We can only consider the first N Vocabs(Tokens) for each sample.
+##### So, what is the solution?
+###### We can only consider the first N Vocabs(Tokens) of each sample.
 
-###### Then, we can add enough \<pad\> tokens to the end of the samples with a length of less than N to reach a length of N.
+###### Then, we add enough \<pad\> tokens to the end of samples with a length of less than N to reach the length of N.
  
 ##### But, what is the value of N?
 ###### Lets assume the lenght of samples in the train set is a random variable X with a Normal distribution<sup>1</sup>.
