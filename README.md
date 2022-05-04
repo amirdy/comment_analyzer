@@ -1,6 +1,6 @@
 # Comment analyzer
-This is a <ins>sentiment analysis</ins> project. A Web Application which determines whether a comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
-In fact, whether the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
+This is a <ins>sentiment analysis</ins> project. A Web Application that determines whether a comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
+In other words, whether the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
 
 ![Demo](README_Files/Demo.png)
 
