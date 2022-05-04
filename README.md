@@ -65,7 +65,7 @@ It has 2 labels:
 
 ## Preprocessing
 
-I just used 1000000 samples for training(validating) and 400000 samples for testing.
+I just used 1000000 samples for training(validating) and 400000 samples for test set.
 
 - **Train set** : 780000 samples (The number of negative and positive samples is almost the same).
 - **Validation set** : 220000 samples.
