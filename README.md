@@ -124,7 +124,7 @@ I just used 1000000 samples for training(validating) and 400000 samples for test
 
 The hiddens of the last time step were given to the Encoder2Decoder Network(MLP) to obtain the decoder hiddens.
 
-The Encoder2Decoder receives hiddens of the last time step in the Encoder (every two layers for both directions) and then generates Decoder hiddens.
+In other words, the Encoder2Decoder receives the hiddens of the last time step in the Encoder (every two layers in both directions) and generates Decoder hiddens.
 
 |<img src="README_Files/E2D.jpg"   width = "622"> |
 |:--:| 
