@@ -1,4 +1,4 @@
-# Comment analyzer
+# Comment Analyzer
 This is a <ins>Sentiment Analysis</ins> project. A Web Application that determines whether a comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>** !
 In other words, whether the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
 
