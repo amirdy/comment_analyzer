@@ -104,7 +104,7 @@ I just used 1000000 samples for training(validating) and 400000 samples for test
 #### * Vocabs with less than 10 repetitions will be replaced with \<UNK\>.<sup>1</sup>
 
 # Network
-#### The entire model consists of three netowrks:
+#### The entire model consists of three networks:
 ###### 1. Encoder (2-layer and Bidirectional - LSTM)
 ###### 2. Encoder2Decoder (MLP)
 ###### 3. Decoder (with Attention - LSTM)
