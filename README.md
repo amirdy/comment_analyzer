@@ -1,7 +1,7 @@
 # Comment Analyzer
 This is a <ins>Sentiment Analysis</ins> project. A Web Application that determines whether a comment given for a product is **<ins>positive</ins>** or **<ins>negative</ins>**(with the probability)!
 In other words, whether the person who bought the product is **<ins>satisfied**</ins> or **<ins>not**</ins>!
-[CLICK HERE TO SEE THE DEMO](http://45.90.74.81:800)
+[<ins>CLICK HERE TO START THE APP</ins>](http://45.90.74.81:800)
 ![Demo](README_Files/Demo.png)
 
 
